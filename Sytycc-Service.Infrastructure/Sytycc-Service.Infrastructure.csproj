@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Sytycc_Service.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
+    <PackageReference Include="LanguageExt.Core" Version="4.4.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sytycc-Service.Domain\Sytycc-Service.Domain.csproj" />
+  </ItemGroup>
+</Project>

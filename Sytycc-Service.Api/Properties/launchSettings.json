@@ -1,0 +1,14 @@
+﻿{
+  
+  "profiles": {
+    "Sytycc_Service.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
